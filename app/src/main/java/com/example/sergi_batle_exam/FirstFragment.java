@@ -35,7 +35,6 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        // Datos para la lista
         ArrayList<String> dataList = new ArrayList<>(Arrays.asList(
                 "Extremitats a tope",
                 "Agonia Maxima",
