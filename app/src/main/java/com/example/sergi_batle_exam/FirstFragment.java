@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FirstFragment extends Fragment {
-
     private FragmentFirstBinding binding;
     private ListView listView;
     private String selectedItem;
@@ -46,8 +45,7 @@ public class FirstFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Acción a realizar al hacer clic en un elemento del ListView
-                selectedItem = (String) parent.getItemAtPosition(position); // Asignación a la variable de clase
+                selectedItem = (String) parent.getItemAtPosition(position);
                 navigateToSecondFragment();
             }
         });
