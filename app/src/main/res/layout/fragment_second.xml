@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de entrenamiento"
+        android:textSize="30dp"
+        android:textColor="@color/red"/>
+    <TextView
+        android:id="@+id/ejer_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ejer1"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ejer_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ejer2"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ejer_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ejer3"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
